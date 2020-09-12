@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube MP3 Downloader</title>
+
+    <!-- An open source project by Elieroc -->
+    <!-- Github of the project : -->
+    <!-- https://github.com/Elieroc/youtube-dl-sti -->
+
+    <!-- Special version for STI2D -->
+
+    <link rel="stylesheet" type="text/css" href="ressources/style.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+
+    <!-- Logo STI2D du Menu -->
+    <div class="menu">
+      <img src="ressources/sti2d-logo.jpg" style="width:200px;height:100px;">
+    </div>
+
+    <!-- Menu -->
+    <nav class="barre-menu">
+			<ul>
+        <li><a href="youtube-dl.html">MP3</a></li>
+				<li><a href="youtube-dl-mp4.html">MP4</a></li>
+        <li><a href="infos.html">Plus d'infos</a></li>
+			</ul>
+		</nav>
+
+    <div class="bloc">
+      <img src="ressources/yt-logo.png" style="width:100px;height:100px;">
+
+      <h2>Youtube MP3 Downloader</h2>
+      <p>
+
+        Ce projet a été codé dans le cadre d'un devoir de SIN.<br>
+        La première version a été faite pendant les vacances 2020 (hors du cadre scolaire).<br>
+        Je l'ai donc remodelé pour lui donner un style STI :) <br>
+        Voici le lien de la version originale (toujours en développement) :<br><br>
+        https://github.com/Elieroc/youtube-dl <br><br>
+        Ainsi que le lien de la version faite pour le devoir :<br><br>
+        https://github.com/Elieroc/youtube-dl-sti <br><br>
+        Le projet a été développé en HTML, CSS et PHP.<br>
+        Il utilise un framework officiel nommé youtube-dl (https://youtube-dl.org/).<br>
+
+      </p>
+
+      <h3>A quoi sert cet outil ?</h3>
+      <p>
+        Il permet de télécharger ou d'écouter des vidéos trouvés sur internet au format .mp3 et pas que sur Youtube !<br>
+      </p>
+
+      <h3>Comment l'utiliser ?</h3>
+      <p>
+        Il suffit de trouver une vidéo sur internet, de copier son lien et de le coller dans le champs fait pour puis cliquer sur le bouton "GO".<br>
+        Patientez un peu puis vous devriez voir apparaître une nouvelle page qui vous propose de télécharger la musique ou de l'écouter directement en ligne.<br>
+      </p>
+
+      <h3>Comment le site est hébergé ?</h3>
+      <p>
+        Mon Raspberry Pi 3B+ personnel héberge le site à l'aide d'un serveur web apache et d'un serveur php.<br>
+        Le tout tourne sur Raspbian Lite pour gagner un maximum de performance.<br>
+        Un nom de domaine gratuit de chez no-ip à été mis en place (elieroc.ddns.net).<br>
+      </p>
+
+      <h3>Securité</h3>
+      <p>
+        Les entrées utilisateur sont très dangereuses sur les sites web.<br>
+        C'est pour cela que la fonction escapeshellarg() a été utilisée.<br>
+        Celle-ci évite qu'un utilisateur malveillant execute des commandes sur le serveur.<br>
+      </p>
+
+      <h3>Attention !</h3>
+      <p>
+        Télécharger des musiques non libres de droits est interdit.<br>
+        Je ne pourrai donc pas être tenu responsable de vos actes.<br>
+      </p>
+
+      <h3>Quelles sont les futures fonctionnalités ?</h3>
+      <p>
+        Les prochaines mises à jour comporteront :
+
+        - Possibilité de télécharger des vidéos au format .mp4<br>
+        - Mise en place d'une base de données pour enregistrer le nom des musiques avec leur lien pour trouver les musiques depuis le site.<br>
+
+      </p>
+
+      <h3>Mes autres projets</h3>
+      <p>
+
+        Crypta : https://github.com/Elieroc/cr7pt4<br>
+        SuperPyKeylogger (projet privé, merci de me donner votre identifiant github si intéressé): https://github.com/Elieroc/keylog-py<br>
+
+      </p>
+    </div>
+  </body>
+</html>
