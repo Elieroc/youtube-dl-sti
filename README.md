@@ -28,7 +28,7 @@ Les prochaines mises à jour comporteront :
   - Possibilité de télécharger des vidéos au format .mp4
   - Mise en place d'une base de données pour enregistrer le nom des musiques avec leur lien pour trouver les musiques depuis le site.
   
-# Mes autres projets :
+# My other projects :
   - Crypta : https://github.com/Elieroc/cr7pt4
   - SuperPyKeylogger (projet privé, merci de me donner votre identifiant github si intéressé):
     https://github.com/Elieroc/keylog-py
