@@ -13,7 +13,7 @@ Il suffit de trouver une vidéo sur internet, de copier son lien et de le coller
 Patientez un peu puis vous devriez voir apparaître une nouvelle page qui vous propose de télécharger la musique ou de l'écouter directement en ligne.
 
 # How to host the website
-Mon Raspberry Pi 3B+ personnel héberge le site à l'aide d'un serveur web apache et d'un serveur php.
+Mon Raspberry Pi 3B+ personnel héberge le site à l'aide d'un serveur web apache et d'un serveur php. La configuration d'apache a été modifié pour que la page d'accueil soit youtube-dl.html.
 Le tout tourne sur Raspbian Lite pour gagner un maximum de performance. Un nom de domaine gratuit de chez no-ip à été mis en place (websti2d.ddns.net).
 Le temps de chargement est plutôt long puisque ce n'est pas une bête de puissance puis la connexion de Valence d'Agen n'est pas des meilleures :)
 
