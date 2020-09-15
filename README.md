@@ -14,7 +14,7 @@ Patientez un peu puis vous devriez voir apparaître une nouvelle page qui vous p
 
 # How to host the website
 Mon Raspberry Pi 3B+ personnel héberge le site à l'aide d'un serveur web apache et d'un serveur php.
-Le tout tourne sur Raspbian Lite pour gagner un maximum de performance. Un nom de domaine gratuit de chez no-ip à été mis en place (elieroc.ddns.net).
+Le tout tourne sur Raspbian Lite pour gagner un maximum de performance. Un nom de domaine gratuit de chez no-ip à été mis en place (websti2d.ddns.net).
 
 # Security
 Les entrées utilisateur sont très dangereuses sur les sites web. C'est pour cela que la fonction escapeshellarg() a été utilisée.
