@@ -48,7 +48,7 @@
 
       <h3>A quoi sert cet outil ?</h3>
       <p>
-        Il permet de télécharger ou d'écouter des vidéos trouvés sur internet au format .mp3 et pas que sur Youtube !<br>
+        Il permet de télécharger ou d'écouter des vidéos trouvées sur internet au format .mp3 et pas que sur Youtube !<br>
       </p>
 
       <h3>Comment l'utiliser ?</h3>
@@ -60,6 +60,7 @@
       <h3>Comment le site est hébergé ?</h3>
       <p>
         Mon Raspberry Pi 3B+ personnel héberge le site à l'aide d'un serveur web apache et d'un serveur php.<br>
+        La configuration d'apache a été modifié pour que la page d'accueil soit youtube-dl.html.<br>
         Le tout tourne sur Raspbian Lite pour gagner un maximum de performance.<br>
         Un nom de domaine gratuit de chez no-ip à été mis en place (elieroc.ddns.net).<br>
       </p>
@@ -67,7 +68,7 @@
       <h3>Securité</h3>
       <p>
         Les entrées utilisateur sont très dangereuses sur les sites web.<br>
-        C'est pour cela que la fonction escapeshellarg() a été utilisée.<br>
+        C'est pour cela que la fonction <b>escapeshellarg()</b> a été utilisée.<br>
         Celle-ci évite qu'un utilisateur malveillant execute des commandes sur le serveur.<br>
       </p>
 
@@ -79,7 +80,7 @@
 
       <h3>Quelles sont les futures fonctionnalités ?</h3>
       <p>
-        Les prochaines mises à jour comporteront :
+        Les prochaines mises à jour comporteront : <br>
 
         - Possibilité de télécharger des vidéos au format .mp4<br>
         - Mise en place d'une base de données pour enregistrer le nom des musiques avec leur lien pour trouver les musiques depuis le site.<br>
